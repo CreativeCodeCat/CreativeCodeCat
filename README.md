@@ -1,4 +1,4 @@
-### Hi there, I'm Wayne - aka [HeCodes2Much][website] 👋
+### Hi there, I'm Wayne - aka [CreativeCodeCat][website] 👋
 
 [![Website](https://img.shields.io/badge/Find%20on-Github-red.svg?colorA=434c5e&colorB=ff59f9&logo=github&style=flat-square)][website]
 [![Telegram](https://img.shields.io/badge/Chat%20on-Telegram-red.svg?colorA=434c5e&colorB=ff59f9&logo=telegram&style=flat-square)][telegram]
@@ -19,7 +19,7 @@
 [<img align="left" alt="HeCodes2Much | Gmail" width="50px" src="https://img.icons8.com/nolan/64/gmail.png" />][email]
 [<img align="left" alt="HeCodes2Much | Twitter" width="50px" src="https://img.icons8.com/nolan/64/telegram-app.png" />][telegram]
 
-[website]: https://github.com/HeCodes2Much/
+[website]: https://github.com/CreativeCodeCat/
 [email]: mailto:wayne6324@gmail.com
 [telegram]: https://t.me/HeCodes2Much
 [matrix]: https://matrix.to/#/@HeCodes2Much:kde.org
