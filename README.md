@@ -1,8 +1,6 @@
 ### Hi there, I'm Wayne - aka [CreativeCodeCat][website] 👋
 
 [![Website](https://img.shields.io/badge/Find%20on-Github-red.svg?colorA=434c5e&colorB=ff59f9&logo=github&style=flat-square)][website]
-[![Telegram](https://img.shields.io/badge/Chat%20on-Telegram-red.svg?colorA=434c5e&colorB=ff59f9&logo=telegram&style=flat-square)][telegram]
-[![Matrix](https://img.shields.io/badge/Chat%20on-Matrix-red.svg?colorA=434c5e&colorB=ff59f9&logo=matrix&style=flat-square)][matrix]
 
 ### I'm a Boyfriend, Developer, and Teacher!!
 
@@ -21,8 +19,6 @@
 
 [website]: https://github.com/CreativeCodeCat/
 [email]: mailto:wayne6324@gmail.com
-[telegram]: https://t.me/HeCodes2Much
-[matrix]: https://matrix.to/#/@HeCodes2Much:kde.org
 
 <br />
 <br />
@@ -52,8 +48,8 @@
 
 <table>
   <tr>
-    <td><img align="center" src="https://github-readme-stats.vercel.app/api?username=HeCodes2Much&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" /></td>
-    <td><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HeCodes2Much&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" /></td>
+    <td><img align="center" src="https://github-readme-stats.vercel.app/api?username=CreativeCodeCat&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" /></td>
+    <td><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CreativeCodeCat&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" /></td>
   </tr>
 </table>
 
@@ -67,12 +63,12 @@
   <tr>
     <td>
       <a href="https://github.com/HeCodes2Much/ArchLinux_Repo">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=HeCodes2Much&repo=ArchLinux_Repo&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" />
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CreativeCodeCat&repo=ArchLinux_Repo&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" />
       </a>
     </td>  
     <td>
       <a href="https://github.com/HeCodes2Much/DotFiles_PacmanBase">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=HeCodes2Much&repo=DotFiles_PacmanBase&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" />
+        <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CreativeCodeCat&repo=DotFiles_PacmanBase&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&layout=compact" />
       </a>
     </td>
   </tr>
@@ -86,7 +82,7 @@
 
 <table>
   <tr>
-    <td><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=therepoclub&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&custom_title=HeCodes2Much%27s+WakaTime+Stats&layout=compact" /></td>
+    <td><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=therepoclub&theme=transparent&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&custom_title=CreativeCodeCat%27s+WakaTime+Stats&layout=compact" /></td>
   </tr>
 </table>
 
