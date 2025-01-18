@@ -15,7 +15,6 @@
 
 [<img align="left" alt="HeCodes2Much | GitHub" width="50px" src="https://img.icons8.com/nolan/64/github.png" />][website]
 [<img align="left" alt="HeCodes2Much | Gmail" width="50px" src="https://img.icons8.com/nolan/64/gmail.png" />][email]
-[<img align="left" alt="HeCodes2Much | Twitter" width="50px" src="https://img.icons8.com/nolan/64/telegram-app.png" />][telegram]
 
 [website]: https://github.com/CreativeCodeCat/
 [email]: mailto:wayne6324@gmail.com
