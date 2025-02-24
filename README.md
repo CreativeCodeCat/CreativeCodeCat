@@ -86,13 +86,3 @@
 </table>
 
 <br />
-
----
-
-**Trophys 🏆**
-
-<img align="left" alt="Vim" width="1200px" src="https://github-profile-trophy.vercel.app/?username=HeCodes2Much&theme=nord&no-bg=true&margin-w=15&margin-h=8&column=9" />
-
-<br /><br />
-<br /><br />
-<br /><br />
