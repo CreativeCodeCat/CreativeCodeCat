@@ -1,49 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Wayne Wesley Brown</title>
-    <!-- Favicon Link -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grace, Struggle & Redemption</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #f3f3f3, #e0e0e0);
+            color: #333;
+        }
+
         .container {
+            height: 100vh;
             width: 100%;
             display: flex;
+            align-items: center;
             justify-content: center;
-            margin-top: 40px;
         }
 
         .content {
-            display: flex;
-            justify-content: space-between;
-            width: 80%;
-            max-width: 950px;
-        }
-
-        .bottom {
-            display: flex;
-            justify-content: space-between;
-            width: 80%;
-            max-width: 550px;
-        }
-
-        .center {
             text-align: center;
+            background-color: #fff;
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
         }
 
-        .links {
-            display: block;
-            margin-top: 10px;
+        h1 {
+            font-size: 2rem;
+            color: #4a2c79;
+            margin-bottom: 0.5rem;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
+        h2 {
+            font-size: 1rem;
+            color: #777;
+            margin-bottom: 1.5rem;
         }
 
-        .section-container {
-            margin-top: 10px;
+        .highlight {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+
+        .number {
+            font-weight: bold;
+            color: #8a2be2;
+        }
+
+        footer {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 1rem;
+        }
+
+        @media (max-height: 600px) {
+            .content {
+                transform: scale(0.9);
+            }
         }
     </style>
 </head>
@@ -51,77 +78,22 @@
 <body>
     <div class="container">
         <div class="content">
-            <div class="left">
-                <div class="center">
-                    <img src="IMG.png" alt="Wayne Image">
-                    <div class="section-title">Where to support:</div>
-                    <div class="link-item">
-                        <a href="https://creativecodecat.itch.io/">Itch.io</a> -
-                        <a href="https://buymeacoffee.com/hecodes2much">BuyMeACoffee</a> -
-                        <a href="https://github.com/sponsors/CreativeCodeCat">CreativeCodeCat</a> -
-                        <a href="https://github.com/sponsors/DroidWorksStudio">DroidWorksStudio</a>
-                    </div>
-
-                </div>
+            <h1>Grace, Struggle & Redemption</h1>
+            <h2>Reflections on 56, 46, and 316</h2>
+            <div class="highlight">
+                <p><span class="number">56</span> — God's Grace to Mankind</p>
+                <p><span class="number">46</span> — Human Effort and Struggle in the World</p>
+                <p><span class="number">316</span> — His Redemptive Love through Christ (<em>John 3:16</em>)</p>
             </div>
-
-            <div class="center">
-                <div class="section-container">
-                    <div class="section-title">Where to watch:</div>
-                    <div class="link-item"><a href="#">Sample Watch 1</a> - <a href="#">Sample Watch 2</a> - <a
-                            href="#">Sample Watch 3</a> - <a href="#">Sample Watch 4</a></div>
-                    <div class="link-item"><a href="#">Sample Watch 5</a> - <a href="#">Sample Watch 6</a></div>
-                    <div class="link-item"><a href="#">Sample Watch 7</a> - <a href="#">Sample Watch 8</a>
-                    </div>
-                </div>
-
-                <div class="section-container">
-                    <div class="section-title">Where to listen:</div>
-                    <div class="link-item"><a href="#">Sample Listen 1</a> - <a href="#">Sample Listen 2</a> - <a
-                            href="#">Sample Listen 3</a></div>
-                    <div class="link-item"><a href="#">Sample Listen 4</a> - <a href="#">Sample Listen 5</a></div>
-                </div>
-
-                <div class="section-container">
-                    <div class="section-title">Where to read:</div>
-                    <div class="link-item"><a href="#">Sample Read 1</a> - <a href="#">Sample Read 2</a> - <a
-                            href="#">Sample Read 3</a> - <a href="#">Sample Read 4</a></div>
-                </div>
-
-                <div class="section-container">
-                    <div class="section-title">Where to hang out:</div>
-                    <div class="link-item"><a href="#">Sample Hangout 1</a> - <a href="#">Sample Hangout 2</a> - <a
-                            href="#">Sample Hangout 3</a></div>
-                </div>
+            <div class="highlight">
+                <p>Let this be a reminder:</p>
+                <p><strong>Trust less in your own works, and more in His gift.</strong></p>
             </div>
-
+            <footer>
+                &copy; 2025 — Inspired by Faith. Designed with purpose.
+            </footer>
         </div>
     </div>
-
-    <div class="center">
-        <p>Sample Note: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor dui sit amet sapien
-            ullamcorper,<br>
-            in interdum erat eleifend. Nulla facilisi. Mauris suscipit auctor dolor, a interdum augue egestas ut. Sed
-            faucibus
-            bibendum libero sit amet dignissim.</p>
-    </div>
-
-    <div class="container">
-        <div class="content bottom">
-            <div class="center">
-                <div class="link-item"><a href="#">Sample Link 1</a><br>Sample Description 1</div>
-                <div class="link-item"><a href="#">Sample Link 2</a><br>Sample Description 2</div>
-                <div class="link-item"><a href="#">Sample Link 3</a><br>Sample Description 3</div>
-            </div>
-
-            <div class="center">
-                <div class="link-item"><a href="#">Sample Link 4</a><br>Sample Description 4</div>
-                <div class="link-item"><a href="#">Sample Link 5</a><br>Sample Description 5</div>
-                <div class="link-item"><a href="#">Sample Link 6</a><br>Sample Description 6</div>
-            </div>
-        </div>
-    </div>
-
 </body>
 
 </html>
