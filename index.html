@@ -7,6 +7,23 @@
     <title>Grace, Struggle & Redemption</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
+        :root {
+            --primary-color: #4a2c79;
+            --secondary-color: #8a2be2;
+            --background-light: #f3f3f3;
+            --background-dark: #181818;
+            --text-light: #333;
+            --text-dark: #f3f3f3;
+            --footer-bg-light: #4a2c79;
+            --footer-bg-dark: #333;
+            --box-shadow-light: rgba(0, 0, 0, 0.1);
+            --box-shadow-dark: rgba(0, 0, 0, 0.3);
+            --highlight-light: #e0e0e0;
+            --highlight-dark: #333;
+            --button-hover: #6a3a9b;
+            --transition-speed: 0.3s ease;
+        }
+
         * {
             margin: 0;
             padding: 0;
@@ -17,8 +34,10 @@
         html {
             height: 100%;
             font-family: 'Georgia', serif;
-            background: linear-gradient(to bottom, #f3f3f3, #e0e0e0);
-            color: #333;
+            background: var(--background-light);
+            color: var(--text-light);
+            transition: background-color var(--transition-speed), color var(--transition-speed);
+            line-height: 1.6;
         }
 
         .container {
@@ -32,39 +51,102 @@
         .content {
             text-align: center;
             background-color: #fff;
-            padding: 1.5rem 2rem;
+            padding: 2rem 3rem;
             border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
+            box-shadow: 0 10px 30px var(--box-shadow-light);
+            max-width: 650px;
+            border-left: 5px solid var(--secondary-color);
+            transition: box-shadow var(--transition-speed), background-color var(--transition-speed);
         }
 
         h1 {
-            font-size: 2rem;
-            color: #4a2c79;
-            margin-bottom: 0.5rem;
+            font-size: 2.8rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
         }
 
         h2 {
-            font-size: 1rem;
+            font-size: 1.2rem;
             color: #777;
             margin-bottom: 1.5rem;
+            font-style: italic;
         }
 
         .highlight {
-            font-size: 1rem;
-            line-height: 1.5;
-            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            color: var(--highlight-light);
         }
 
         .number {
             font-weight: bold;
-            color: #8a2be2;
+            color: var(--secondary-color);
+            font-size: 1.5rem;
         }
 
         footer {
-            font-size: 0.8rem;
-            color: #999;
+            font-size: 0.9rem;
+            color: #f0f0f0;
             margin-top: 1rem;
+            background-color: var(--footer-bg-light);
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        /* Dark Mode Styles */
+        body.dark-mode {
+            background: var(--background-dark);
+            color: var(--text-dark);
+        }
+
+        body.dark-mode .content {
+            background-color: #222;
+            box-shadow: 0 10px 30px var(--box-shadow-dark);
+        }
+
+        body.dark-mode footer {
+            background-color: var(--footer-bg-dark);
+        }
+
+        .highlight p {
+            margin: 10px 0;
+        }
+
+        .highlight p:nth-child(odd) {
+            color: var(--primary-color);
+        }
+
+        .highlight p:nth-child(even) {
+            color: #e88a8a;
+        }
+
+        /* Dark Mode Toggle Button */
+        .dark-mode-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 12px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .dark-mode-toggle:hover {
+            background: var(--button-hover);
+            transform: scale(1.1);
+        }
+
+        .dark-mode-toggle:focus {
+            outline: none;
         }
 
         @media (max-height: 600px) {
@@ -72,10 +154,22 @@
                 transform: scale(0.9);
             }
         }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 1.5rem 2rem;
+                max-width: 90%;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
     <div class="container">
         <div class="content">
             <h1>Grace, Struggle & Redemption</h1>
@@ -94,6 +188,25 @@
             </footer>
         </div>
     </div>
+
+    <script>
+        // Check if dark mode preference is saved in localStorage
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            document.body.classList.add('dark-mode');
+        }
+
+        // Toggle Dark Mode and save preference to localStorage
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+
+            // Save the current theme preference in localStorage
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        }
+    </script>
 </body>
 
 </html>
