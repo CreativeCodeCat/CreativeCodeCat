@@ -17,7 +17,7 @@ For a better experience while using our Services, we may require you to provide 
 Our Services may use third-party services that could collect information used to identify you.  
 
 **Link to privacy policy of third-party service providers used by our Services:**  
-- [Google Play Services](https://policies.google.com/privacy)
+[Google Play Services](https://policies.google.com/privacy) 
 
 ---
 
