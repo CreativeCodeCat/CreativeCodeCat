@@ -17,7 +17,7 @@ For a better experience while using our Services, we may require you to provide 
 Our Services may use third-party services that could collect information used to identify you.  
 
 **Link to privacy policy of third-party service providers used by our Services:**  
-- Google Play Services
+- [Google Play Services](https://policies.google.com/privacy)
 
 ---
 
@@ -76,4 +76,4 @@ This policy is effective as of **1st January 2025**.
 
 ## Contact Us
 
-If you have any questions or suggestions about this Privacy Policy, contact us at **wayne6324@gmail.com**.
+If you have any questions or suggestions about this Privacy Policy, contact us at **[wayne6324@gmail.com](mailto:wayne6324@gmail.com)**.
