@@ -8,6 +8,8 @@ By choosing to use any of our Services, you agree to the collection and use of i
 
 The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, unless otherwise defined in this Privacy Policy.
 
+**This App/Service is developed and published by CodeWorks Creative Hub.**
+
 ---
 
 ## Information Collection and Use
@@ -17,7 +19,7 @@ For a better experience while using our Services, we may require you to provide 
 Our Services may use third-party services that could collect information used to identify you.  
 
 **Link to privacy policy of third-party service providers used by our Services:**  
-[Google Play Services](https://policies.google.com/privacy) 
+[Google Play Services](https://policies.google.com/privacy)  
 
 ---
 
@@ -76,4 +78,7 @@ This policy is effective as of **1st January 2025**.
 
 ## Contact Us
 
-If you have any questions or suggestions about this Privacy Policy, contact us at **[wayne6324@gmail.com](mailto:wayne6324@gmail.com)**.
+If you have any questions or suggestions about this Privacy Policy, contact us at:  
+**CodeWorks Creative Hub**  
+**Email:** [wayne6324@gmail.com](mailto:wayne6324@gmail.com)  
+**Google Play Developer Page:** [https://play.google.com/store/apps/dev?id=5621731466000162476](https://play.google.com/store/apps/dev?id=5621731466000162476)
