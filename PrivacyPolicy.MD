@@ -81,4 +81,4 @@ This policy is effective as of **1st January 2025**.
 If you have any questions or suggestions about this Privacy Policy, contact us at:  
 **CodeWorks Creative Hub**  
 **Email:** [wayne6324@gmail.com](mailto:wayne6324@gmail.com)  
-**Google Play Developer Page:** [https://play.google.com/store/apps/dev?id=5621731466000162476](https://play.google.com/store/apps/dev?id=5621731466000162476)
+**Google Play Developer Page:** [CodeWorks Creative Hub](https://play.google.com/store/apps/dev?id=5621731466000162476)
